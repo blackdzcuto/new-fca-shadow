@@ -1,19 +1,5 @@
 [![Socket Badge](https://socket.dev/api/badge/npm/package/fca-horizon-remastered)](https://socket.dev/npm/package/fca-horizon-remastered)
 
-## Important !
-
-This package require NodeJS 14.17.0 to work properly.
-
-## Notification !
-
-+ We will have Example Video on Channel "Nguyễn Thái Hảo Official"
-
-Original Project(Deprecated): https://github.com/Schmavery/facebook-chat-api
-
-Chúc các bạn một ngày tốt lành!, cảm ơn vì đã sài Sản phẩm của HZI, thân ái
-
-KANZUWAKAZAKI(15/04/2023)
-
 ## Support For : 
 
 + Support English, VietNamese !,
@@ -31,11 +17,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](h
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i fca-horizon-remastered
+npm i new-fca-shadow
 ```
 or
 ```bash
-npm install fca-horizon-remastered
+npm install new-fca-shadow
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
@@ -44,11 +30,11 @@ Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không H
 
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
 ```bash
-npm install fca-horizon-remastered@latest
+npm install new-fca-shadow@latest
 ```
 Hoặc
 ```bash
-npm i fca-horizon-remastered@latest
+npm i new-fca-shadow@latest
 ```
 
 ## Nếu Bạn Muốn Test Api 
@@ -59,7 +45,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Account
 ## Cách Sử Dụng
 
 ```javascript
-const login = require("fca-horizon-remastered"); // lấy từ lib ra 
+const login = require("new-fca-shadow"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -99,7 +85,7 @@ Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    var login = require('fca-horizon-remastered')
+    var login = require('new-fca-shadow')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -120,7 +106,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-horizon-remastered");
+const login = require("new-fca-shadow");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 
