@@ -226,7 +226,12 @@ module.exports = function (defaultFuncs, api, ctx) {
       form["audio_ids"] = [];
 
       if (utils.getType(msg.attachment) !== "Array") msg.attachment = [msg.attachment];
-
+//if (utils.getType(msg.attachment) !== "Array") msg.attachment = [msg.attachment];
+      if (msg.attachment.every(e=>/_id$/.test(e[0]))) {
+        //console.log(msg.attachment)
+        msg.attachment.map(e=>form[`${e[0]}s`].push(e[1]));
+        return cb();
+      }
       if (global.Fca.Require.FastConfig.AntiSendAppState) {
         try {
           const AllowList = [".png", ".mp3", ".mp4", ".wav", ".gif", ".jpg", ".tff"];
